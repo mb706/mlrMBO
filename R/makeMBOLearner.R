@@ -81,5 +81,6 @@ makeMBOLearner = function(control, fun, config = list(), ...) {
     lrn = setPredictType(lrn, "se")
 
   lrn = setHyperPars(lrn, ...)
-  return(lrn)
+
+  return(mlrCPO::cpoDropConstants() %>>% lrn)
 }

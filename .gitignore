@@ -16,3 +16,5 @@ vignettes/*.R
 *_cache
 .Rproj.user
 docs/
+*~
+out.*

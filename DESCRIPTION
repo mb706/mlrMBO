@@ -36,6 +36,7 @@ Imports:
     lhs,
     parallelMap (>= 1.3)
 Suggests:
+    mlrCPO,
     akima,
     cmaesr (>= 1.0.3),
     ggplot2,
